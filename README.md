@@ -42,3 +42,10 @@ class UserRepositoryDecorator extends UserDecorator
 $userRepository = new UserRepository();
 $userRepositoryDecorator = new UserRepositoryDecorator($userRepository);
 echo $userRepositoryDecorator->all();
+````
+
+
+1) The adapter adapter pattern changes the interface but does not change the implementation.
+2) The proxy pattern changes the implementation but does not change the interface.
+3) The decorator pattern changes the implementation but does not change the interface.
+4) The facade pattern is a high-level level abstraction over low-level components, where the interface is changed.
